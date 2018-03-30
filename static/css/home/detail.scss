@@ -1,0 +1,21 @@
+.m-detail {
+    width: 500px;
+    height: 300px;
+    border: 2px solid orange;
+    .detail-con {
+        width: 200px;
+        height: 100px;
+        border: 1px solid cyan;
+        h1 {
+            color: lightseagreen;
+        }
+        .detail-list {
+            width: 100px;
+            height: 50px;
+            border: 1px dashed black;
+            h2 {
+                color: goldenrod;
+            }
+        }
+    }
+}

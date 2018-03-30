@@ -35,7 +35,6 @@
 				},
 			}
 		},
-		
 		// beforeCreate() {
 		// 	console.group('%c%s', 'color:blue', 'beforeCreate 创建前状态===============index组件》')
 		// },
@@ -43,7 +42,7 @@
 			console.group('%c%s', 'color:blue', 'created 创建完毕状态===============index组件》')
 			const self = this;
 			EventHub.$on('getSinger',(s)=> {
-				console.info(s,'last comp on')
+				console.info(s,'step传过来的值')
 			})
 		},
 		beforeDestroy() {
