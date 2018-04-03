@@ -11,6 +11,7 @@
 
 <script>
 	export default {
+		name: 'home-detail',
 		data() {
 			return {
 			};

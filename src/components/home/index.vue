@@ -48,6 +48,7 @@
 			const self = this;
 			EventHub.$on('getSinger', (s) => {
 				console.info(s, 'step传过来的值')
+				
 			})
 		},
 		beforeDestroy() {

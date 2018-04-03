@@ -12,7 +12,7 @@
     } from 'mint-ui';
 
     export default {
-        name: 'step',
+        name: 'step-list',
         data() {
             return {
                 msg: '顺其自然，宁缺毋滥~',

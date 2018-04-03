@@ -6,47 +6,43 @@ Vue.use(Router)
 export default new Router({
     routes: [{
         path: '/',
-        // name: 'index',
+        name: 'index',
         component: resolve => require(['../components/home/index'],resolve)
     },{
-        path: '/home/detail',
-        // name: 'index',
+        path: '/home/detail/',
+        name: 'home-detail',
         component: resolve => require(['../components/home/detail'],resolve)
     },{
         path: '/step/',
-        // name: 'step',
+        name: 'step-list',
         component: resolve => require(['../components/step/list'],resolve)
     },{
-        path: '/step/detail',
-        // name: 'step',
+        path: '/step/detail/',
+        name: 'step-detail',
         component: resolve => require(['../components/step/detail'],resolve)
     },{
-        path: '/market',
-        // name: 'step',
+        path: '/market/',
+        name: 'market-list',
         component: resolve => require(['../components/market/list'],resolve)
     },{
-        path: '/market/exchangeRecord',
-        // name: 'step',
+        path: '/market/exchangeRecord/',
+        name: 'exchangeRecord',
         component: resolve => require(['../components/market/exchangeRecord'],resolve)
     },{
-        path: '/market/scoreRecord',
-        // name: 'step',
+        path: '/market/scoreRecord/',
+        name: 'scoreRecord',
         component: resolve => require(['../components/market/scoreRecord'],resolve)
     },{
         path: '/uc/',
-        // name: 'step',
+        name: 'account',
         component: resolve => require(['../components/uc/account'],resolve)
     },{
-        path: '/uc/',
-        // name: 'step',
-        component: resolve => require(['../components/uc/account'],resolve)
-    },{
-        path: '/uc/verify',
-        // name: 'step',
+        path: '/uc/verify/',
+        name: 'verify',
         component: resolve => require(['../components/uc/verify'],resolve)
     },{
-        path: '/uc/activity',
-        // name: 'step',
+        path: '/uc/activity/',
+        name: 'activity',
         component: resolve => require(['../components/uc/activity'],resolve)
     },]
 })
